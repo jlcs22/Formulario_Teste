@@ -1,0 +1,50 @@
+body {
+    width: 99%;
+    background-color: slateblue;
+}
+
+.bloco1 {
+    margin: 4%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aliceblue;
+}
+
+.bloco2 {
+    margin: 3%;
+}
+
+select{
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+}
+
+#lado{
+    text-align: right;
+}
+ 
+#buton1 {
+    background-color: slateblue;
+    font-size: medium;
+    color: aliceblue;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+}
+
+#buton2 {
+    background-color: slateblue;
+    font-size: medium;
+    color: aliceblue;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+}
+
+#camp {
+    width: 200px;
+}

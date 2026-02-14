@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulário.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <form action="">
+    <div class="bloco1">
+        <div class="bloco2">
+            <br>
+            <h1>Formulário de Cadastro</h1>
+            <p><label for="name">Nome:</label>
+                <input type="text" name="nome" id="name" placeholder="Seu nome">
+            </p>
+            <p> <label for="date">Data de nascimento:</label>
+                <input type="date" name="date" id="date">
+            </p>
+            <fieldset>
+                <legend>Dados de acesso</legend>
+                <p><label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail" required>
+                </p>
+                <p>
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" id="password" placeholder="Crie uma senha" required>
+                </p>
+            </fieldset>
+            <br>
+            <label>Turno em que estuda:</label>
+            <p>
+                <input type="radio" name="turno" id="a1">
+                <label for="a1">Manhã</label>
+                <input type="radio" name="turno" id="a2">
+                <label for="a2">Tarde</label>
+                <input type="radio" name="turno" id="a3">
+                <label for="a3">Noite</label>
+            </p>
+            <p>
+                <label for="color">Cor Preferida:</label>
+                <input type="color" name="color" id="color">
+            </p>
+            <p>
+                <label for="text">Sua citação favorita:</label>
+                <br>
+                <textarea name="text" id="text" cols="60" rows="5" placeholder="Digite aqui"></textarea>
+            </p>
+            <p>
+                <label for="file">Adicione uma foto:</label>
+                <input type="file" name="file" id="file">
+            </p>
+            <p>
+                <label for="Shirt">Tamanho da blusa:</label>
+                <select name="option" id="Shirt">
+                    <option value="">PP</option>
+                    <option value="">P</option>
+                    <option value="">M</option>
+                    <option value="">G</option>
+                    <option value="">GG</option>
+                    <option value="">G1</option>
+                    <option value="">G2</option>
+                </select>
+            </p>
+            <p>
+                <label for="camp">Escolha um número entre 1 e 10:</label>
+                <input type="number" name="avaliacao" id="camp" min="1" max="10" placeholder="Como você avalia esse site">
+            </p>
+            <p>
+                <label for="site">Site:</label>
+                <input type="url" name="site" id="site" placeholder="http://">
+            </p>
+            <p>
+                <label for="termos"><a href="">Aceitar termos:</a></label>
+                <input type="checkbox" name="termos" id="termos" required>
+            </p>
+            <p id="lado">
+                <input type="submit" value="Enviar" id="buton1">
+                <input type="reset" value="Reset" id="buton2">
+            </p>
+            <br>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>
