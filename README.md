@@ -7,7 +7,8 @@ O objetivo foi praticar a criação de formulários utilizando diferentes tipos 
 
 ---
 
-Desenvolvido por Júlia Luiza 💜
-
 [Preview do projeto]
 <img width="1200" height="929" alt="image" src="https://github.com/user-attachments/assets/418005d5-5366-4b57-9a62-3e4d6ee61d5e" />
+
+---
+Desenvolvido por Júlia Luiza 💜
